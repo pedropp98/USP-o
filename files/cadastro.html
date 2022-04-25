@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <link rel="stylesheet" type="text/css" href="../styles/header.css">
+        <link rel="stylesheet" type="text/css" href="../styles/side-menu.css">
+
+        <link rel="stylesheet" href="../styles/cadastro-content.css">
+        <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Cadastro</title>
+    </head>
+
+    <body id="pagina">
+        <!--  Barra superior principal-->
+
+        <input type="checkbox" id="toggle" name="toggle">
+
+        <div class="side-menu">
+            <ul>
+                <li><label for="toggle"><i class="fa fa-close"></i></label></li>
+                <li><a href="main.html">Início</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+
+        
+
+        <div id="cabecalho">
+
+            <div class="navbar">
+                <label for="toggle"><i class="fa fa-bars" style="font-size: 24px;"></i></label>
+            </div>
+
+            <div id="logo">
+                <img src="../img/logo.png">
+            </div>
+            <!-- <div id="text">
+                USPão
+            </div> -->
+        </div>
+
+        <br>
+
+        <div id="pagDiv">
+            <div id="cadastro">
+                <h1>Cadastre-se</h1>
+                <div id="cadastroForm">
+                    <form action="form.txt">
+                        <table id="cadastroTable">
+                            <tr>
+                                <td>
+                                    Nome:<br>
+                                    <input type="text" name="name"><br><br>
+                                </td>
+                                <td>    
+                                    Sobrenome:<br>
+                                    <input type="text" name="name"><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    E-mail:<br>
+                                    <input type="email" name="name" autocomplete="on" width="70%"><br><br>
+                                </td>   
+                                <td>
+                                    Usuário:<br>
+                                    <input type="text" name="name" ><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Senha:<br>
+                                    <input type="password" name="name" ><br><br>
+                                </td>    
+                                <td>
+                                    Repetir senha:<br>
+                                    <input type="password" name="name"><br><br>
+                                </td>    
+                            </tr>
+                            <tr>  
+                                <td>     
+                                    Data de nascimento:<br>
+                                    <input type="date" name="date" min="1903-1-1" max="2003-1-1"><br><br><br> 
+                                </td>
+                                <td>
+                                    <input type="submit" value="Cadastrar">
+                                </td>     
+                            </tr>
+                        </table>
+                    </form>    
+                </div>
+            </div>
+        </div>
+
+        <!--Rodapé-->
+        <br>
+        
+        <footer>
+
+            <div class="info" id="contatos">
+                <h3>Contatos</h3>
+                <ul>
+                    <li><i class="fa fa-phone"></i> <a href="tel:+551640028922">(16)40028922</a></li>
+                    <li><i class="fa fa-telegram"></i>  <a href="https://telegram.me/uspao">@uspao</a></li>
+                    <li><i class="fa fa-envelope"></i>  <a href="mailto:baguete@uspao.br">baquete@uspao.br</a></li>
+                </ul>
+            </div>
+
+            <div class="info" id="enderecos">
+                <h3>Nossas filiais</h3>
+                <ul>
+                    <li>Rua da Entrada da Arquitetura, 320 - Canindé</li>
+                    <li>Rua da Entrada da Computação, 420 - Rio de Janeiro</li>
+                    <li>Rua da Entrada da Produção, 520 - Araxás</li>
+                </ul>   
+            </div>
+
+            <div id="end">
+                <h5>USP 2022</h5>
+            </div>
+
+        </footer>
+    </body>
+
+</html>
